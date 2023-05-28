@@ -17,7 +17,8 @@
     "better-sqlite3": "7.4.6",
     "nodemailer": "^6.9.2",
     "pg": "^8.8.0",
-    "pg-connection-string": "^2.5.0"
+    "pg-connection-string": "^2.5.0",
+    "strapi": "^3.6.11"
   },
   "author": {
     "name": "A Strapi developer"
