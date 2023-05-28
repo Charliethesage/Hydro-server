@@ -34,4 +34,7 @@ module.exports = ({ env }) => ({
           },
         },
       }, */
+      'users-permissions': {
+        jwtSecret: 'hjd7+FmcBJzfTlmYFYhLbA==',
+      },
   });   
