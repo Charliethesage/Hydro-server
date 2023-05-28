@@ -36,6 +36,6 @@ module.exports = ({ env }) => ({
       },
 
       'users-permissions': {
-        jwtSecret: 'hjd7+FmcBJzfTlmYFYhLbA==',
+    jwtSecret: env('JWT_SECRET', 'defaultSecretValue'), // Read the JWT secret from the environment variable
       },
   });   
