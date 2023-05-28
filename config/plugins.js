@@ -19,7 +19,7 @@ module.exports = ({ env }) => ({
         },
       },
     },
-/* uploads plugin
+// uploads plugin
     upload: {
         config: {
           provider: 'cloudinary',
@@ -33,7 +33,8 @@ module.exports = ({ env }) => ({
             delete: {},
           },
         },
-      }, */
+      },
+
       'users-permissions': {
         jwtSecret: 'hjd7+FmcBJzfTlmYFYhLbA==',
       },
